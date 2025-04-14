@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.secao1 {
+  background-color: #f36e20;
+  font-size: 24px;
+  color: white;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  z-index: 10px;
+}
+ul,
+li {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.secao2 {
+  padding-top: 95px;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.7)),
+    url(Green-Moss-Photo.jpg);
+  background-position: center;
+  background-attachment: none;
+  background-size: cover;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+}
+.secao2 h2 {
+  font-size: 48px;
+}
+.secao2 p {
+  font-size: 28px;
+}
+.central {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+}
+.texto-central {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -80px;
+}
+
+.secao3 {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.secao3 > * {
+  max-width: 600px;
+}
+
+.secao3 a {
+  background-color: #f36e20;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+}
+
+.secao4 {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  padding: 60px 120px;
+  gap: 24px;
+}
+
+.secao4-direita {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.secao4-direita {
+  max-width: 50%;
+}
+
+.secao5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 45px 140px;
+  gap: 12px;
+}
+
+.secao5 div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.secao5 img {
+  height: 40px;
+  width: 40px;
+}
+
+.secao6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f56d21;
+  color: white;
+  text-decoration: none;
+}
+
+.secao6 div {
+  padding: 12px;
+  width: 25%;
+}
+
+.secao7 {
+  text-align: center;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
